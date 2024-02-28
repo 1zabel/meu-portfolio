@@ -7,31 +7,17 @@
 }
 
 body {
-    width: 100%;
-    background-image: linear-gradient(to bottom,#733B2F,#EFBFA8);
-    
+    color: white;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: linear-gradient(to top, #6f46184b,#733B2F);
+.imagem{
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.titulo_h1 {
-    display: flex;
-    padding: 1rem;
-}
-
-.img{
-    display: flex;
-    width: 243px;
-    height: 350px;
-    background-image: url('imagens/izabel.png');
-    background-size: cover;
-    top: 50%;
-    left: 50%;
-    transform: translate(106%, 73%);
-
+aside > a {
+    color: white;
+    text-align: center;
 }
